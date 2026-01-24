@@ -1,25 +1,34 @@
 import React from "react";
 import {
-  SiReact,
-  SiBlazor,
   SiDotnet,
+  SiAngular,
+  SiBlazor,
+  SiReact,
+  SiMysql,
+  SiLaravel,
   SiPython,
-  SiHtml5,
-  SiCss3,
-  SiMysql, // used to represent Database
+  SiGit,
+  SiGithub,
+  
 } from "react-icons/si";
 
+// CORRECT: Microsoft SQL Server icon is available in Font Awesome
+import { FaMicrosoft } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const skills = [
-  { name: "React", icon: <SiReact size={40} className="text-blue-400" /> },
-  { name: "Blazor", icon: <SiBlazor size={40} className="text-purple-400" /> },
-  { name: "RESTful API", icon: <SiDotnet size={40} className="text-cyan-400" /> },
-  { name: "Database", icon: <SiMysql size={40} className="text-green-500" /> },
   { name: "C# / .NET", icon: <SiDotnet size={40} className="text-purple-500" /> },
+  { name: "RESTful API", icon: <SiDotnet size={40} className="text-cyan-400" /> },
+  { name: "Angular", icon: <SiAngular size={40} className="text-red-500" /> },
+  { name: "Blazor", icon: <SiBlazor size={40} className="text-purple-400" /> },
+  { name: "SQL Server", icon: <FaMicrosoft size={40} className="text-blue-500" /> },
+  { name: "Laravel", icon: <SiLaravel size={40} className="text-red-500" /> },
+  { name: "MySQL", icon: <SiMysql size={40} className="text-green-500" /> },
+  { name: "React", icon: <SiReact size={40} className="text-blue-400" /> },
   { name: "Python", icon: <SiPython size={40} className="text-yellow-300" /> },
-  { name: "HTML5", icon: <SiHtml5 size={40} className="text-orange-500" /> },
-  { name: "CSS3", icon: <SiCss3 size={40} className="text-blue-600" /> },
+  { name: "Git", icon: <SiGit size={40} className="text-orange-500" /> },
+  { name: "Azure", icon: <FaMicrosoft size={40} className="text-blue-500" /> },
+  { name: "GitHub", icon: <SiGithub size={40} className="text-white" /> },
 ];
 
 const Skills = () => {

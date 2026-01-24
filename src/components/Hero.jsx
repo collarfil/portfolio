@@ -4,6 +4,8 @@ import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
+    
+
     <section
       id="home"
       className="min-h-screen flex flex-col md:flex-row items-center justify-center bg-gray-900 text-white px-6 md:px-16"
@@ -16,10 +18,10 @@ const Hero = () => {
         transition={{ duration: 0.8 }}
       >
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          Hi, I’m <span className="text-blue-400">Collins Aigbekhai</span>
+          Hi, I’m <span className="text-blue-400">Collins Felix Aigbekhai</span>
         </h1>
         <p className="text-lg md:text-xl mb-6 text-gray-300">
-          A passionate <span className="text-blue-300 font-semibold">Software Developer</span> specializing in .NET, React, and modern web applications.
+          A passionate <span className="text-blue-300 font-semibold">Software Developer</span> specializing in .NET, Angular, Blazor, React and modern web applications.
         </p>
 
         <div className="flex gap-4 justify-center md:justify-start">
